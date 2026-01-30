@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLICK - AI Point Cloud Automation</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="m-0 p-0 overflow-x-hidden">
+
+    <!-- Hero Section -->
+    <div class="relative w-full h-screen min-h-[700px] bg-gray-900">
+        
+        <!-- Background Image Placeholder -->
+        <img src="https://placehold.co/1920x1080/2a2a2a/ffffff?text=Construction+Laser+Scanning" 
+             alt="BLICK Reality Capture" 
+             class="absolute inset-0 w-full h-full object-cover z-0 opacity-60">
+        
+        <!-- Dark Overlay -->
+        <div class="absolute inset-0 bg-black/40 z-0"></div>
+
+        <!-- Navigation Bar -->
+        <nav class="absolute top-0 left-0 w-full z-20 flex justify-between items-start px-6 py-6 md:px-10 md:py-8 text-white">
+            <!-- Left Links -->
+            <div class="flex gap-6 md:gap-8 text-base md:text-lg font-medium tracking-wide">
+                <a href="#" class="hover:text-[#0ea5e9] transition-colors">Lösungen</a>
+                <a href="#" class="hover:text-[#0ea5e9] transition-colors">Technologie</a>
+            </div>
+
+            <!-- Center Logo -->
+            <div class="absolute left-1/2 top-6 md:top-8 transform -translate-x-1/2 text-center pointer-events-none">
+                <span class="uppercase font-bold text-sm md:text-base tracking-[0.2em] text-white whitespace-nowrap">
+                    BLICK
+                </span>
+            </div>
+
+            <!-- Right Links -->
+            <div class="flex gap-6 md:gap-8 text-base md:text-lg font-medium tracking-wide items-center">
+                <a href="#" class="hidden md:block hover:text-[#0ea5e9] transition-colors">Über uns</a>
+                <a href="#" class="bg-[#0ea5e9] text-white px-5 py-2 rounded text-sm uppercase font-bold tracking-wider hover:bg-white hover:text-[#0ea5e9] transition-all">Demo buchen</a>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <div class="absolute bottom-0 left-0 w-full z-20 px-6 pb-12 md:px-10 md:pb-20">
+            <h1 class="text-white font-bold leading-[0.9] tracking-tight mb-8" style="font-size: clamp(2.5rem, 8.5vw, 11rem);">
+                Scans zu<br>
+                Deliverables<br>
+                durch KI.
+            </h1>
+            
+            <div class="flex flex-col md:flex-row gap-8 items-start md:items-end justify-between">
+                <div class="max-w-2xl">
+                    <p class="text-[#475569] text-lg md:text-2xl font-medium leading-relaxed mb-2 uppercase tracking-wide">
+                        Point Cloud Automation
+                    </p>
+                    <p class="text-white/80 text-lg md:text-xl max-w-xl">
+                        BLICK transformiert rohe Laserscans durch KI-gestützte Automatisierung in präzise Konstruktionsdaten. Sparen Sie Wochen an manueller Bereinigung und Noise-Removal.
+                    </p>
+                </div>
+                
+                <div class="flex gap-4">
+                    <button class="bg-[#0ea5e9] text-white px-10 py-5 rounded-sm font-bold uppercase tracking-[0.1em] hover:bg-[#0ea5e9]/90 transition-colors text-sm md:text-base">
+                        Jetzt Testen
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
